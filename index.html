@@ -21,18 +21,12 @@
 
 
 
-<meta property="og:image" itemprop="image" content="https://jesvijonathan.github.io/talos-website/talos_web.png">
-<meta property="og:image:secure_url" itemprop="image"
-  content="https://jesvijonathan.github.io/talos-website/talos_web.png">
+
 <meta property="og:type" content="website" />
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="300">
 <meta property="og:image:height" content="200">
-<meta property="og:url" content="https://jesvijonathan.github.io/talos-website/">
-<meta property="og:updated_time" content="2022-05-05T23:10:58-06:00" />
-<link itemprop="thumbnailUrl" href="https://jesvijonathan.github.io/talos-website/talos_web.png">
-<span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-  <link itemprop="url" href="https://jesvijonathan.github.io/talos-website/talos_web.png">
+
 </span>
 
 
@@ -58,6 +52,112 @@
     gtag('js', new Date());
     gtag('config', 'G-BJW100YW4T');
   </script>
+  <style>
+    
+.regbtn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px
+}
+
+.regbtn:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+
+.regbtn span {
+  position: absolute;
+  display: block;
+}
+
+.regbtn span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.regbtn span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.regbtn span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.regbtn span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+
+  </style>
 
 
 </head>
@@ -73,20 +173,7 @@
     </svg> 
 </div> -->
 
-  <script>
-
-    var loading_var = "What The Heck Are You Doing ?!";
-    console.log(loading_var);
-
-    setTimeout(() => {
-      document.querySelector(".nloader").style.opacity = "0";
-      document.querySelector(".nlder").style.opacity = "0";
-
-      document.querySelector(".nlder").style.zIndex = "-45";
-      document.querySelector(".nloader").style.zIndex = "-45";
-    }, 1500);
-
-  </script>
+  
 
   <header>
 
@@ -188,6 +275,8 @@
               </defs>
             </svg>
 
+
+            
           </a>
           <a class="cenl" id="logo_id">ElectroVista'2K24</a>
           </a>
@@ -216,8 +305,20 @@
                 <a href="#Locon" class="nav-link" onclick="cls_b();currentSlide(2)">Contact</a>
                 <div class="nbox"></div>
               </li>
+              <br>
+              <li>
+                <a class="regbtn" href="https://forms.gle/nz93M47nuBtcd4ybA" target="_blank">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Register Now
+                </a>
+              </li>
+              
             </div>
           </ul>
+          
         </div>
       </div>
   </header>
@@ -254,7 +355,7 @@
 
 
     <script>
-      var countDownDate = new Date("Feb 9, 2024 00:00:00").getTime();
+      var countDownDate = new Date("Feb 9, 2024 09:00:00").getTime();
       var ctt = "-- none --"
 
       // Update the count down every 1 second
@@ -437,16 +538,6 @@
 
 
       </div>
-      <!-- <div class="topi t0">
-        <div class="topic-img-con" data-aos="fade-right" data-aos-duration="700">
-          <div class="topic-img-con tic1"></div>
-          <div class="top-pic p3"></div>
-        </div>
-        <div class="topic-desc" data-aos="fade-in" data-aos-duration="900">In Artificial Intelligence & Data Science
-          Department, We study today's ground breaking tech, being used in high level automation, error handling,
-          prediction, data analytics & several other decision making process on a daily basis. You can never be bored
-          here.. Coz every new topic is an invention that makes history.</div>
-      </div> -->
     </div>
   </div>
 </section>
@@ -616,11 +707,6 @@
         </div>
       </div>
 
-
-
-
-
-
     </div>
   </div>
 
@@ -649,13 +735,13 @@
 
       <div class="botbut">
         <a class="b1" id="reg_con" target="_blank" href="">Contact</a>
-        <a class="b2" href="https://g.page/CITCollege" target="_blank">Venue</a>
-        <a class="b4" id="reg_po" href="https://www.instagram.com/t.a.l.o.s_cit" target="_blank">Poster</a>
+        <a class="b2" href="https://maps.app.goo.gl/DpG8QFxpqVYTjgKj6" target="_blank">Venue</a>
+        <a class="b4" id="reg_po" href="https://psr.edu.in/electrovista2k24/" target="_blank">Poster</a>
         <a class="b5" id="reg_sha" onclick="return copyTextFromElement();" href="">Share</a>
-        <input type="text" value="https://jesvijonathan.github.io/talos-website" id="myInput" style="display: none;">
+        <input type="text" value="https://psr.edu.in/electrovista2k24/" id="myInput" style="display: none;">
 
 
-        <a class="b3" id="reg_reg" href="https://jesvijonathan.github.io/talos-website" target="_blank">Register</a>
+        <a class="b3" id="reg_reg" href="https://psr.edu.in/" target="_blank">Register</a>
 
       </div>
     </div>
@@ -663,7 +749,7 @@
 </section>
 
 <section class="section s2" id="Locon">
-  <div class="topic-head ano" id="Loconn" style="    padding-top: 10vh;" data-aos="zoom-in" data-aos-duration="400">
+  <div class="topic-head ano" id="Loconn" style="padding-top: 10vh;" data-aos="zoom-in" data-aos-duration="400">
     Location</div>
 
   <div class="buttnex" style="display: none;">
@@ -700,22 +786,19 @@
           <!--  -->
 
           <div class="locamm">
-            <h3>Phone :</h3>
+            <h3>Mail : <a href="mailto:electrovista2k24@gmail.com" target="_blank">electrovista2k24@gmail.com </a></h3>
             <div class="locmi coon">
               <ul>
-                <li><a href="tel:+919849770286" target="_blank">Ponduru Dinuroop (President | +919849770286)</a></li>
-                <li><a href="tel:+919150612359" target="_blank">Yuva Daranee (Vice President | +919150612359)</a></li>
-                <li><a href="tel:+919003633318" target="_blank">Kamal Roshan (Event Co-ordinator | +919003633318)</a>
+                <li><a href="tel:+918144642218" target="_blank">Mr V Muthukumar  | 8144642218</a></li>
+                <li><a href="tel:+919361176101" target="_blank">Mr L Marimuthu | 9361176101</a></li>
+                <li><a href="tel:+918610797749" target="_blank">Ms A Noorjahan Rehana | 8610797749</a>
                 </li>
-                <li><a href="tel:+919384485985" target="_blank">Dhanya Babu (Secretary | +919384485985)</a></li>
-                <!-- dhanya 9384485985 | yuva 9150612359
-          <br>-->
-                <!-- <li><a href="https://jesvi.pythonanywhere.com/" target="_blank">Karuppasamy K (<b>Co-ordinator 🤖</b>)</a> -->
+                <li><a href="tel:+918610797749" target="_blank">Ms K Kanagalakshmi</a></li>
+                
                 </li>
                 <br>
-                <li><a href="tel:+916374252105" target="_blank">Meenalakshmi (Incharge Faculty)</a></li>
-                <li><a href="tel:+918344477761" target="_blank">Preetiya (Incharge Faculty)</a></li>
-                <li><a href="tel:+918056986115" target="_blank">Dina Padmanaban (Incharge Faculty)</a></li>
+                <li><a href="tel:+918610797749" target="_blank">Dr G. Karthikeyan ASP/ECE (Incharge Faculty)</a></li>
+                <li><a href="tel:+918610797749" target="_blank">Mrs P. Lingeswari AP/ECE (Incharge Faculty)</a></li>
               </ul>
               </h4>
             </div>
@@ -791,23 +874,23 @@
         <i class="fa fa-facebook" aria-hidden="true"></i> 
       </a> -->
 
-          <a href="mailto:talos@citchennai.net" target="_blank">
+          <a href="electrovista2k24@gmail.com" target="_blank">
             <span class="screen-reader-text">Email</span>
             <i class="fa fa-envelope" aria-hidden="true"></i>
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/talos-cit-285455237">
+          <a target="_blank" href="https://in.linkedin.com/school/p.s.r-engineering-college-sivakasi---626-140/">
             <span class="screen-reader-text">LinkedIn</span>
             <i class="fa fa-linkedin " aria-hidden="true"></i>
           </a>
-          <a target="_blank" href="tel:+919849770286">
-            <span class="screen-reader-text">Phone | Dinuroop (+919849770286, Symposium-President-2022)</span>
+          <a target="_blank" href="tel:+918778997952">
+            <span class="screen-reader-text">Phone | Karuppasamy K (+918778997952)</span>
             <i class="fa fa-phone" aria-hidden="true"></i>
           </a>
-          <a target="_blank" href="https://g.page/CITCollege?share">
+          <a target="_blank" href="https://maps.app.goo.gl/DpG8QFxpqVYTjgKj6">
             <span class="screen-reader-text">Location</span>
             <i class="fa fa-map-marker" aria-hidden="true"></i>
           </a>
-          <a target="_blank" href="https://www.instagram.com/t.a.l.o.s_cit">
+          <a target="_blank" href="https://www.instagram.com/psr_ece">
             <span class="screen-reader-text">Instagram</span>
             <i class="fa fa-instagram" aria-hidden="true"></i>
           </a>
@@ -822,8 +905,7 @@
         <a href="#Events">Events</a>
       </div>
       <li class="links_b">
-        <a href="./certificate.crt" target="_blank">Terms & Policy</a>
-        <a href="mailto:talos@citchennai.net" target="_blank">Contact Us</a>
+        <a href="mailto:electrovista2k24@gmail.com" target="_blank">Contact Us</a>
         <a href="jesvi.pythonanywhere.com" target="_blank">Services</a>
 
       </li>
@@ -1119,6 +1201,16 @@
       var li = ""
       var po = "https://www.instagram.com/t.a.l.o.s_cit/";
 
+
+      
+      
+      
+      
+      
+      
+      
+      
+
       switch (clicked_id) {
         case "ev1":
           de = "Paper presentation enables you to unveil your ideas and gain exposure to various insightful concepts. You can reveal the truths behind unexplored phenomena in the extensive world of science and technology by exhibiting your ingenious thoughts and let your innovations speak through your Paper.";
@@ -1126,9 +1218,9 @@
           ca = "Paper Presentation";
           ru = "<li>● This is a team event (minimum 1 member, maximum 2 members in a team).</li><li>● Decisions by the committee judges shall be final.</li><li>● Themes: </li><ul style='padding-left:20px;'><li>● Artificial Intelligence</li><li>● Cyber Security</li><li>● IOT</li><li>● HealthCare Industry</li><li>● Environmental Enhacemnet </li><li>● <b>Other themes also accepted</b></li></ul>";
           re = "https://forms.gle/nz93M47nuBtcd4ybA";
-          co = "tel:+919176206355"; //madhush
-          li = "./events/event-designo-lit-o.html";
-          po = "https://www.instagram.com/p/CdPpkHYJ3fj/";
+          co = "tel:+918144642218"; //madhush
+          li = "./events/event-tech-vision.html";
+          po = "https://www.instagram.com/psr_ece";
           break;
         case "ev2":
           de = "'Insights Unveiled' transforms your ideas into a visually compelling narrative. Your poster becomes a canvas where innovative concepts are artistically portrayed, captivating the audience and leading them on a journey of exploration.";
@@ -1136,9 +1228,9 @@
           ca = "Poster Presentation ";
           ru = "<li>● A team can have maximum of 2 members.</li><li>● Individual participation is also allowed.</li><li>● Only registered members can participate.</li>";
           re = "https://forms.gle/nz93M47nuBtcd4ybA";
-          co = "tel:+918610761438"; //rajiv
-          li = "./events/event-capturra.html";
-          po = "https://www.instagram.com/p/CdTU0I2P2hy/";
+          co = "tel:+918144642218"; //rajiv
+          li = "./events/event-visionaries-showcase.html";
+          po = "https://www.instagram.com/psr_ece";
           break;
         case "ev3":
           de = "'Innovations Unleashed' transforms the traditional project expo into an extravaganza of ideas. Here, your project is more than a display; it's a living testament to your ingenuity and a catalyst for sparking conversations.";
@@ -1146,9 +1238,9 @@
           ca = "Project Expo";
           ru = "<li>● A team can consist of 1-2 members.</li><li>● Your abstract and PowerPoint must be submitted in the google form sent by our team between the dates <b>12-01-24 to 07-02-24</b>.</li><li>● Your work will be judged based on <b>Innovation, Comprehension</b>.</li><li>● Contact Us, For any further clarification.</li>";
           re = "https://forms.gle/nz93M47nuBtcd4ybA";
-          co = "tel:+919361929197"; //sanjush
-          li = "./events/event-certitude.html";
-          po = "https://www.instagram.com/p/CdNU6Zvph9N/";
+          co = "tel:+918144642218"; //sanjush
+          li = "./events/event-prototype-fair.html";
+          po = "https://www.instagram.com/psr_ece";
           break;
         case "ev4":
           de = "'Tech Odyssey' is a quest for intellectual exploration, where participants navigate through a labyrinth of questions designed to challenge and intrigue. Dive deep into the heart of unexplored phenomena and emerge with a richer understanding of the vast world of science and technology.";
@@ -1156,9 +1248,9 @@
           ca = "Technical Quiz";
           ru = "<li>●Winners will be decided based on the number of correct outputs.</li>";
           re = "https://forms.gle/nz93M47nuBtcd4ybA";
-          co = "tel:+917812853799"; //akshar
-          li = "./events/event-codoput.html";
-          po = "https://www.instagram.com/p/CdSGLFYKbYx/";
+          co = "tel:+918144642218"; //akshar
+          li = "./events/event-wsidom-rally.html";
+          po = "https://www.instagram.com/psr_ece";
           break;
 
         case "ev6":
@@ -1167,9 +1259,9 @@
           ca = "Connection Game";
           ru = "<li>● Each team should consist of three players. Three songs will be given to each team.</li>    <li>● Every team will have 1 minute to guess each song.</li>   <li>● Participants are not allowed to use any lip movements. If this is not followed negative points will be given.</li>   <li>● A single team member can wear the headset the entire round or it can be swapped among the team members for each song.</li> <li>● Only registered teams can participate.</li>";
           re = "https://forms.gle/nz93M47nuBtcd4ybA";
-          co = "tel:+9179897 46476"; //yeshwa
-          li = "./events/event-tune-surfing.html";
-          po = "https://www.instagram.com/p/CdQpGPnv8CP/";
+          co = "tel:+919361176101"; //yeshwa
+          li = "./events/event-contactix.html";
+          po = "https://www.instagram.com/psr_ece";
           break;
         case "ev7":
           de = "Ahoy ! Gather and hunt down the astounding treasures. The time has come! Let's see if you've really got what it takes to hunt 'em down. The skills you hold leads you to the treasure untold. But Beware, you aren't the only one hunting. Not all the treasure is silver and gold mate!";
@@ -1177,9 +1269,9 @@
           ca = "Treasure Hunt";
           ru = "<li>● It is an individual online event & Participants are bound to follow our Instagram page.</li>   <li>● Participants can either use their mobile phones or DSLR cameras to take photograph. <b>Theme : Street Photography</b>.</li>  <li>● Participants should submit their photograph in document format & the mode of submission will be further intimated through whatsapp.</li> <li>● Last date for submision would be 15th to 22nd of May 2022.</li> <li>● Colour enhancement and basic editing are permissible</li> <li>● The winners will be notified & will be rewarded with cash prize.</li>";
           re = "https://forms.gle/nz93M47nuBtcd4ybA";
-          co = "tel:+916380340156"; //M Sweth
-          li = "./events/event-capturra.html";
-          po = "https://www.instagram.com/p/CdNcruppx_-/";
+          co = "tel:+919361176101"; //M Sweth
+          li = "./events/event-secrest-stash.html";
+          po = "https://www.instagram.com/psr_ece";
           break;
         case "ev8":
           de = "Ahoy ! Gather and hunt down the astounding treasures. The time has come! Let's see if you've really got what it takes to hunt 'em down. The skills you hold leads you to the treasure untold. But Beware, you aren't the only one hunting. Not all the treasure is silver and gold mate !";
@@ -1187,9 +1279,9 @@
           ca = "Song Finding";
           ru = "<li>●	Each team can have minimum 2, & maximum of 5 members.</li>   <li>●	Teams should finish the hunt within the given time limit.</li>    <li>●	Participants of the same team should stick together until the hunt is over.</li>   <li>●	The hunt is only within the campus & All the clues must be gathered inorder to finish the hunt.</li>   <li>● Each team must carry only one phone to capture the clues when found, The first team with all the clues wins the hunt.</li> <li>● Any team getting into foul play would be immediately disqualified.</li>";
           re = "https://forms.gle/nz93M47nuBtcd4ybA";
-          co = "tel:+917338828033"; //Gaya
-          li = "./events/event-hunters-and-gatherers.html";
-          po = "https://www.instagram.com/p/CdSgHxrrRFV/";
+          co = "tel:+919361176101"; //Gaya
+          li = "./events/event-riddle-the-rythm.html";
+          po = "https://www.instagram.com/psr_ece";
           break;
         case "ev9":
           de = "Immerse yourself in a world of innovative no-heat cooking challenges that redefine the culinary landscape.Each task unveils the secrets of unexplored flavor phenomena, turning your kitchen into a dynamic space where creativity reigns without the need for traditional heat sources.";
@@ -1197,9 +1289,9 @@
           ca = "Cook Without Fire";
           ru = "<li>● It's a single-player game. Only one player is allowed to play at a time.</li> <li>● Hand gestures are used to control the game.</li> <li>● Each player has one chance(life) with a trial gameplay.</li>  <li>● Before the game begins, the demo will be shown.</li> <li>● Participants playing order is chosen by lottery system.</li> <li>● The primary criteria for choosing the winner is the distance travelled.</li> <li>● If there is a tie, the coins collected will be taken into account.</li>";
           re = "https://forms.gle/nz93M47nuBtcd4ybA";
-          co = "tel:+918838010007"; //vinu balan
-          li = "./events/event-mystic-touch.html";
-          po = "https://www.instagram.com/p/CdQChDosHJI/";
+          co = "tel:+919361176101"; //vinu balan
+          li = "./events/event-zexo-heat-kitchen.html";
+          po = "https://www.instagram.com/psr_ece";
           break;
       }
 
